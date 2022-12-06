@@ -1,0 +1,63 @@
+window:
+  padding:
+    x: 5
+    y: 5
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 1
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+
+font:
+  normal:
+    family: Bitstream Vera Sans Mono
+    style:  Roman
+  bold:
+    family: Bitstream Vera Sans Mono
+    style:  Bold
+  italic:
+    family: Bitstream Vera Sans Mono
+    style:  Oblique
+  bold_italic:
+    family: Bitstream Vera Sans Mono
+    style: Bold Oblique
+  size: 12
+  offset:
+    y: 2
+draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    background: "#282828"
+    foreground: "#bdae93"
+  normal:
+    black: "#282828"
+    red: "#cc241d"
+    green: "#98971a"
+    yellow: "#d79921"
+    blue: "#458588"
+    magenta: "#b16286"
+    cyan: "#689d68"
+    white: "#ebdbb2"
+  bright:
+    black: "#3c3836"
+    red: "#fb4934"
+    green: "#b8bb26"
+    yellow: "#fabd2f"
+    blue: "#83a598"
+    magenta: "#d3869b"
+    cyan: "#8ec07c"
+    white: "#fbf1c7"
+
+selection:
+  save_to_clipboard: false
+
+shell:
+  program: /usr/bin/bash
+
+key_bindings:
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
